@@ -4,24 +4,27 @@ import scrapy
 class AuthorSpider(scrapy.Spider):
     name = 'monster'
 
-    start_urls = ['https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY']
+    def __init__(self, *args, **kwargs):
+        super(AuthorSpider, self).__init__(*args, **kwargs)
+
+        self.start_urls = [kwargs.get('start_url')]
+        #start_urls = ['https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY']
     i = 2
     def parse(self, response):
-        # follow links to author pages
 
-        for item in response.css('button.mux-btn').extract():
-            try:
-                if 'Load more jobs' in item:
-                    if self.i ==2:
-                        print 'tested'
-                        nextPageUrl = response.request.url + '&page=' + str(self.i)
-                        yield scrapy.Request(nextPageUrl, callback=self.parse)
-                    else:
-                        nextPageUrl = response.request.url.replace('&page='+str(self.i-1),'&page='+str(self.i))
-                        yield scrapy.Request(nextPageUrl, callback=self.parse)
-                    self.i += 1
-            except:
-                pass
+        # for item in response.css('button.mux-btn').extract():
+        #     try:
+        #         if 'Load more jobs' in item:
+        #             if self.i ==2:
+        #                 print 'tested'
+        #                 nextPageUrl = response.request.url + '&page=' + str(self.i)
+        #                 yield scrapy.Request(nextPageUrl, callback=self.parse)
+        #             else:
+        #                 nextPageUrl = response.request.url.replace('&page='+str(self.i-1),'&page='+str(self.i))
+        #                 yield scrapy.Request(nextPageUrl, callback=self.parse)
+        #             self.i += 1
+        #     except:
+        #         pass
 
         urls = response.css('section.card-content a::attr(href)').extract()
         for url in urls:
@@ -29,12 +32,11 @@ class AuthorSpider(scrapy.Spider):
                 yield  scrapy.Request(url,callback=self.parse_each_page)
 
 
-        # follow pagination links
-        #site.xpath("//div[@id='llista-resultats']//h3/a/text()").extract() response.selector.xpath(
+
     def parse_each_page(self,response):
         jobUrl = response.request.url
         try:
-            jobTitle = response.css('h2.title::text').extract_first()
+            jobTitle = response.css('h1.title::text').extract_first()
         except:
             jobTitle = ''
         try:
@@ -62,13 +64,24 @@ class AuthorSpider(scrapy.Spider):
         except:
             careerLevel = ''
 
-        # try:
-        #     descriptions = response.css('div.details-content li::text').extract()
-        #     description = ''
-        #     for des in descriptions:
-        #         description += des
-        # except:
-        #     description = ''
+        try:
+            descriptions = response.xpath("//div[@id='JobDescription']//text()").extract()
+            description = ''
+            for des in descriptions:
+                description += des
+            # descriptions = response.css('div.details-content span p::text').extract()
+            # description = ''
+            # for des in descriptions:
+            #     description += des
+            # try:
+            #     descriptions2 =  response.css('div.details-content ul li::text').extract()
+            #     for des in descriptions:
+            #         description += des
+            # except:
+            #     pass
+
+        except:
+            description = ''
 
         yield {
             'jobUrl' : jobUrl,
@@ -78,8 +91,11 @@ class AuthorSpider(scrapy.Spider):
             'salary' : salary,
             'educationLevel' : educationLevel,
             'careerLevel' : careerLevel,
-            #'description' : description,
+            'description' : description,
 
 
         }
 
+#scrapy crawl monster -o monster.json -a start_url="https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY#"
+
+#scrapy crawl monster -o monster.csv -t csv -a start_url="https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY"
