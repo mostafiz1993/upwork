@@ -1,35 +1,21 @@
 import scrapy
 
 
-class MonsterSpider(scrapy.Spider):
-    name = 'monster'
+class HealthGradeSpider(scrapy.Spider):
+    name = 'healthGrade'
 
-    def __init__(self, *args, **kwargs):
-        super(MonsterSpider, self).__init__(*args, **kwargs)
-
-        self.start_urls = [kwargs.get('start_url')]
-        #start_urls = ['https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY']
+    # def __init__(self, *args, **kwargs):
+    #     super(HealthGradeSpider, self).__init__(*args, **kwargs)
+    #
+    #     self.start_urls = [kwargs.get('start_url')]
+    start_urls = ['https://www.healthgrades.com/hospital-directory/search/HospitalsResults?loc=New+York%2C+NY']
     i = 2
     def parse(self, response):
-
-        # for item in response.css('button.mux-btn').extract():
-        #     try:
-        #         if 'Load more jobs' in item:
-        #             if self.i ==2:
-        #                 print 'tested'
-        #                 nextPageUrl = response.request.url + '&page=' + str(self.i)
-        #                 yield scrapy.Request(nextPageUrl, callback=self.parse)
-        #             else:
-        #                 nextPageUrl = response.request.url.replace('&page='+str(self.i-1),'&page='+str(self.i))
-        #                 yield scrapy.Request(nextPageUrl, callback=self.parse)
-        #             self.i += 1
-        #     except:
-        #         pass
-
-        urls = response.css('section.card-content a::attr(href)').extract()
+        urls = response.css('div.listing div.listingHeaderLeftColumn a::attr(href)').extract()
         for url in urls:
-            if 'job-openings.monster.com' in url:
-                yield  scrapy.Request(url,callback=self.parse_each_page)
+            yield {
+                'hospitalUrl': url,
+            }
 
 
 
@@ -98,4 +84,4 @@ class MonsterSpider(scrapy.Spider):
 
 #scrapy crawl monster -o monster.json -a start_url="https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY#"
 
-#scrapy crawl monster -o monster.csv -t csv -a start_url="https://www.monster.com/jobs/search/?q=data-scientist&where=New-York__2C-NY"
+#scrapy crawl healthGrade -o healthgrade.csv -t csv -a start_url="https://www.healthgrades.com/hospital-directory/search/HospitalsResults?loc=New+York%2C+NY"
