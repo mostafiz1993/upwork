@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce3c9f4-2f50-48e8-b314-14fa88dade6f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/033923PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/033939PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/034005PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/034900PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/034923PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/035146PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/040002PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/040043PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/040317PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/105217PM_April05_2018_healthgrade.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +25,8 @@
       <file leaf-file-name="urgentcaremedicals.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+            <state relative-caret-position="73">
+              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -550,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        <state relative-caret-position="73">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

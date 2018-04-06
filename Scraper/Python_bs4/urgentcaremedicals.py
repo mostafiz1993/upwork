@@ -51,7 +51,7 @@ class UrgentCareMedicals:
         try:
             Hospitals = soup.find_all('table', attrs={'class': 'default'})[0].find_all('tr')
             for hospital in Hospitals[1:]:
-                print hospital
+                #print hospital
                 try:
                     hospitalName = hospital.find('span', attrs={'itemprop': 'name'}).text
                     #print hospitalName
