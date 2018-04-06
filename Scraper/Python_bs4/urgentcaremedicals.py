@@ -54,32 +54,32 @@ class UrgentCareMedicals:
                 print hospital
                 try:
                     hospitalName = hospital.find('span', attrs={'itemprop': 'name'}).text
-                    print hospitalName
+                    #print hospitalName
                 except:
                     hospitalName = 'N/A'
                 try:
                     streetAddress = hospital.find('span', attrs={'itemprop': 'streetAddress'}).text
-                    print streetAddress
+                    #print streetAddress
                 except:
                     streetAddress = 'N/A'
                 try:
                     city = hospital.find('span', attrs={'itemprop': 'addressLocality'}).text
-                    print city
+                    #print city
                 except:
                     city = 'N/A'
                 try:
                     state = hospital.find('span', attrs={'itemprop': 'addressRegion'}).text
-                    print state
+                    #print state
                 except:
                     state = 'N/A'
                 try:
                     postalCode = hospital.find('span', attrs={'itemprop': 'postalCode'}).text
-                    print postalCode
+                    #print postalCode
                 except:
                     postalCode = 'N/A'
                 try:
                     phone = hospital.find_all('td', attrs={'class': 'hidden-phone'})[1].text
-                    print phone
+                    #print phone
                 except:
                     phone = 'N/A'
                 self.write_to_csv(hospitalName, streetAddress, city, state, postalCode, phone, writer)

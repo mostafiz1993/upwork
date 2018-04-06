@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce3c9f4-2f50-48e8-b314-14fa88dade6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/033923PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/033939PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/034005PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/034900PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/034923PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/035146PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/040002PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/040043PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/040317PM_April06_2018_urgentcaremedicals.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/105217PM_April05_2018_healthgrade.csv" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +33,8 @@
       <file leaf-file-name="urgentcaremedicals.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="105" column="77" selection-start-line="105" selection-start-column="77" selection-end-line="105" selection-end-column="77" />
+            <state relative-caret-position="1455">
+              <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -36,12 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="105217PM_April05_2018_healthgrade.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/105217PM_April05_2018_healthgrade.csv">
+      <file leaf-file-name="temp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="129" column="103" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="103" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +69,7 @@
       <file leaf-file-name="healthGrade.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
+            <state relative-caret-position="191">
               <caret line="70" column="72" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="72" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -87,6 +95,7 @@
       <list>
         <option value="$PROJECT_DIR$/Excel/MergeExcel.py" />
         <option value="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/temp.py" />
         <option value="$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py" />
       </list>
     </option>
@@ -412,9 +421,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -485,6 +494,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="70" column="72" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2940">
@@ -495,20 +514,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="70" column="72" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="72" />
+        <state relative-caret-position="240">
+          <caret line="129" column="103" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="103" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/040043PM_April06_2018_urgentcaremedicals.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/035146PM_April06_2018_urgentcaremedicals.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/040317PM_April06_2018_urgentcaremedicals.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1305">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="105" column="77" selection-start-line="105" selection-start-column="77" selection-end-line="105" selection-end-column="77" />
+        <state relative-caret-position="1455">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
