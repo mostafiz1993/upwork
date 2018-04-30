@@ -187,13 +187,13 @@ def go_to_next_page(url,writer):
         except:
             return
 
-def runParser(searchSyntax,location,jobTtile,csvName):
+def runParser(searchSyntax,jobTtile,csvName):
     #url = 'https://www.simplyhired.com/search?q=data+scientist&l=New+York'
 
     #time.sleep(firstTime)
     par1 = searchSyntax[searchSyntax.find('?') + 1:searchSyntax.find('=')]
-    par2 = searchSyntax[searchSyntax.find('&') + 1:searchSyntax.rfind('='):]
-    encodedurl = {par1: jobTtile, par2: location}
+    #par2 = searchSyntax[searchSyntax.find('&') + 1:searchSyntax.rfind('='):]
+    encodedurl = {par1: jobTtile}
     url =  searchSyntax[:searchSyntax.find('?') + 1] + urllib.urlencode(encodedurl)
     print url
     soup = getSoap(url)
@@ -225,7 +225,7 @@ def runParser(searchSyntax,location,jobTtile,csvName):
         except:
             pass
     csvF.close()
-runParser('https://www.monster.com/jobs/search/?q=Data-Scientist&where=new-york','new york,ny','talent acquisition','monster.csv')
+runParser('https://www.indeed.com/jobs?q=data+scientist','talent acquisition','indeed.csv')
 
 
 

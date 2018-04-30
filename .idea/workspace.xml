@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Scraper/Python_bs4/indeedResume.py" line="103" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ce3c9f4-2f50-48e8-b314-14fa88dade6f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/solvhealth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa_new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa_withoutscreenshot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/zillow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/zillowScraper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/indeedForpaven.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/indeedResume.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/zillow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/VenvScraper/temp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scraper/test/pandaTocsv.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/120818PM_April11_2018_urgentcare.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/temp.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Upwork.iml" afterPath="$PROJECT_DIR$/.idea/Upwork.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/temp.py" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/temp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/Python _Selenium/truePeopleSearch.py" afterPath="$PROJECT_DIR$/Scraper/Python _Selenium/truePeopleSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py" afterPath="$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urgentcaremedicals.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
+      <file leaf-file-name="zillow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/zillow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+            <state relative-caret-position="224">
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -35,23 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/temp.py">
+      <file leaf-file-name="zillowScraper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/zillowScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="60" column="72" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="72" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="genericParser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
-              <caret line="196" column="83" selection-start-line="193" selection-start-column="4" selection-end-line="196" selection-end-column="83" />
+            <state relative-caret-position="209">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -59,43 +65,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="healthGrade.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="93" column="51" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="060550PM_April06_2018_healthgrade.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/060550PM_April06_2018_healthgrade.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="060104PM_April06_2018_healthgrade.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/060104PM_April06_2018_healthgrade.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="055743PM_April06_2018_healthgrade.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/055743PM_April06_2018_healthgrade.csv">
+      <file leaf-file-name="013302AM_April30_2018_zillow.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/013302AM_April30_2018_zillow.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="125719AM_April30_2018_zillow.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/125719AM_April30_2018_zillow.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="134" column="108" selection-start-line="134" selection-start-column="108" selection-end-line="134" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="124050AM_April30_2018_zillow.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/124050AM_April30_2018_zillow.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="115" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homewyse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/homewyse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="74" column="77" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="peopleSearchNow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/peopleSearchNow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="116" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="out_zillow.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/out_zillow.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1921">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zillow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/zillow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ucaoa.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="334" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -118,13 +166,35 @@
       <list>
         <option value="$PROJECT_DIR$/Excel/MergeExcel.py" />
         <option value="$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py" />
-        <option value="$PROJECT_DIR$/Scraper/Python_bs4/temp.py" />
         <option value="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/092938PM_April06_2018_TruePeopleSearch.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/truePeopleSearch.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/solvhealth.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/temp.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/093003PM_April25_2018_indeed.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/012051AM_April27_2018_ucaoa.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa_withoutscreenshot.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/080921AM_April27_2018_ucaoa.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa_new.py" />
+        <option value="$PROJECT_DIR$/Scraper/VenvScraper/temp.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/indeedForpaven.py" />
+        <option value="$PROJECT_DIR$/Scraper/test/pandaTocsv.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/indeedResume.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python_bs4/zillow.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/out_zillow.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/050745PM_April29_2018_zillow.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/zillow.py" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/124050AM_April30_2018_zillow.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/125719AM_April30_2018_zillow.csv" />
+        <option value="$PROJECT_DIR$/Scraper/Python _Selenium/zillowScraper.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
     <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -152,14 +222,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Upwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Upwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Upwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scraper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -203,13 +289,40 @@
               <option name="myItemId" value="Upwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scraper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python _Selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Upwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Upwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Scraper/VenvScraper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,25 +336,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.healthGrade">
-    <configuration default="false" name="MergeExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Upwork" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel/MergeExcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="healthGrade" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.zillowScraper">
+    <configuration default="false" name="indeedResume" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -253,12 +349,46 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Upwork" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/Python_bs4/indeedResume.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="urgentcaremedicals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="pandaTocsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scraper/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upwork" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/test/pandaTocsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="zillow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scraper/Python _Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upwork" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/Python _Selenium/zillow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="zillow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -270,7 +400,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Upwork" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/Python_bs4/zillow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="zillowScraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scraper/Python _Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upwork" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraper/Python _Selenium/zillowScraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -409,21 +556,28 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.MergeExcel" />
-      <item index="1" class="java.lang.String" itemvalue="Python.healthGrade" />
-      <item index="2" class="java.lang.String" itemvalue="Python.urgentcaremedicals" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.indeedResume" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pandaTocsv" />
+      <item index="2" class="java.lang.String" itemvalue="Python.zillow" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zillow (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.zillowScraper" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.healthGrade" />
-        <item index="1" class="java.lang.String" itemvalue="Python.urgentcaremedicals" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MergeExcel" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.zillowScraper" />
+        <item index="1" class="java.lang.String" itemvalue="Python.zillow" />
+        <item index="2" class="java.lang.String" itemvalue="Python.zillow (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.indeedResume" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pandaTocsv" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -435,16 +589,25 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2520507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25018615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40032154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -459,6 +622,14 @@
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -467,27 +638,220 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/indeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/011954AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/in_memory_to_disk.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/025651AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/025955AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/030256AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/012051AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/030633AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/031239AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/031542AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/034934AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/035008AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/080921AM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13575">
+          <caret line="905" column="45" selection-start-line="905" selection-start-column="37" selection-end-line="905" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/careerbuilder.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/101225PM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/100016PM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/111614PM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/111536PM_April27_2018_ucaoa.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa_withoutscreenshot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/indeed.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/045230AM_April28_2018_ucaoa_new2.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/045602AM_April28_2018_ucaoa_new2.csv" />
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/092938PM_April06_2018_TruePeopleSearch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/VenvScraper/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="89" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/051526AM_April28_2018_ucaoa.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61096">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/051140AM_April28_2018_ucaoa_new2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/104905AM_April28_2018_ucaoa.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_Scrapy/PeopleSearchNow/PeopleSearchNow/spiders/shopify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/indeedForpaven.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2519">
+          <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/test/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/test/pandaTocsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/zillow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/045845PM_April29_2018_zillow.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/out_zillow1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/050745PM_April29_2018_zillow.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/solvhealth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/zillow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/indeedResume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/homewyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="74" column="77" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/ucaoa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="16" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="334" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/out_zillow.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1921">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/105217PM_April05_2018_healthgrade.csv">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/123245AM_April30_2018_zillow.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -495,21 +859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excel/ExcelToExcel.py" />
-    <entry file="file://$PROJECT_DIR$/Excel/MergeExcel.py" />
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/104229PM_April05_2018_healthgrade.csv" />
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/104252PM_April05_2018_healthgrade.csv" />
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/105217PM_April05_2018_healthgrade.csv">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/123441AM_April30_2018_zillow.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -517,7 +867,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/040043PM_April06_2018_urgentcaremedicals.csv">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/123707AM_April30_2018_zillow.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -525,80 +875,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/035146PM_April06_2018_urgentcaremedicals.csv">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/124050AM_April30_2018_zillow.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="30" column="115" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/040317PM_April06_2018_urgentcaremedicals.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1305">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/genericParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="196" column="83" selection-start-line="193" selection-start-column="4" selection-end-line="196" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="60" column="72" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="72" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/055743PM_April06_2018_healthgrade.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/060104PM_April06_2018_healthgrade.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/urgentcaremedicals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/060550PM_April06_2018_healthgrade.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper/Python_bs4/healthGrade.py">
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/peopleSearchNow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="93" column="51" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="116" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/125719AM_April30_2018_zillow.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="134" column="108" selection-start-line="134" selection-start-column="108" selection-end-line="134" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/013302AM_April30_2018_zillow.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraper/Python _Selenium/zillowScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

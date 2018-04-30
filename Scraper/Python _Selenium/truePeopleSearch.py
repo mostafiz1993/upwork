@@ -20,7 +20,8 @@ def parse_each_person(url,browser,writer):
         telephone = []
         email = []
         browser.get(url)
-        time.sleep(5)
+        time.sleep(30)
+        browser.get(url)
         try:
             if browser.find_element_by_xpath("//span[@class='h2']"):
                 name = browser.find_element_by_xpath("//span[@class='h2']").text
