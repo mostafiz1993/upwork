@@ -49,7 +49,7 @@ def parse_each_clinic(url):
 def get_property(b,writer):
     lis = b.find_element_by_class_name('photo-cards').find_elements_by_tag_name('li')
     for li in lis:
-        try:bvbanaim
+        try:
             url1 =  li.find_element_by_class_name('zsg-photo-card-overlay-link').get_attribute('href')
             print url1
             generate_csv(url1,writer)

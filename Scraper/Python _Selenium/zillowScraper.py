@@ -2,9 +2,24 @@ import csv
 import time
 import datetime
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
 import pyautogui
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+user_agent_list = [
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36']
+
 
 def csv_file_name_generation(csvFile):
     csvFileName =  datetime.datetime.now().strftime("%I%M%S%p_%B%d_%Y")+ '_' + csvFile
@@ -57,12 +72,16 @@ def get_property(b,writer):
 
 
 
-def parse_each_property(url,cookie,writer):
-    [browser.add_cookie(b) for b in cookie]
+def parse_each_property(url,cookie,writer,user_agent_index,flag,path_to_chromedriver):
+    if(flag):
+        opts = Options()
+        opts.add_argument(user_agent_list[(12-(user_agent_index%12))*(user_agent_index/12)])
+        browser = webdriver.Chrome(executable_path=path_to_chromedriver,chrome_options=opts)
     browser.get(url)
+    [browser.add_cookie(b) for b in cookie]
+
     time.sleep(2)
     print(pyautogui.position())
-    pyautogui.click(1354, 690)
     pyautogui.click(1354, 690)
     pyautogui.click(1354, 690)
     pyautogui.click(1354, 690)
@@ -119,17 +138,34 @@ csvF = csv_file_name_generation('zillow.csv')
 writer = csv.DictWriter(csvF, fieldnames=fieldnames)
 writer.writeheader()
 path_to_chromedriver = '/home/mostafiz/Downloads/chrome1/chromedriver'  # change path as needed
+#opts = Options()
+#opts.add_argument("user-agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.86 Safari/533.4")
 browser = webdriver.Chrome(executable_path=path_to_chromedriver)
 browser.get('https://www.google.com/')
 browser.set_window_size(1920, 1080)
 browser.get('https://www.zillow.com/homedetails/10052-Umberland-Pl-Boca-Raton-FL-33428/46509942_zpid/')
 cookie = browser.get_cookies()
+#parse_each_property('https://www.zillow.com/homedetails/10052-Umberland-Pl-Boca-Raton-FL-33428/46509942_zpid/',cookie,writer)
+uagent_index = 0
+i = 0
+flag = False
 with open('out_zillow.csv', "rb" ) as theFile:
     #reader = csv.DictReader( theFile )
     for line in theFile.readlines():
         url = line.strip().decode('utf-8')
         try:
-            parse_each_property(url,cookie,writer)
+            if (uagent_index%12) > 10:
+                flag = True
+                i += 1
+                if (i>11):
+                    i = 0
+            else:
+                flag = False
+
+            parse_each_property(url,cookie,writer,i,flag,path_to_chromedriver)
+            print('yes')
+            uagent_index += 1
+
         except:
             pass
 
@@ -160,6 +196,9 @@ with open('out_zillow.csv', "rb" ) as theFile:
 #             break
 
 #parse_each_clinic(url)
+
+
+
 
 
 
